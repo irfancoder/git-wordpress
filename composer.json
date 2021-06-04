@@ -1,0 +1,13 @@
+{
+    "name": "irfanismail/git-wordpress",
+    "description": "A sample Wordpress project for AtomicDeployment testing at RunCloud",
+    "require": {
+        "robbens/laravel-redirect": "^0.5.1"
+    },
+    "authors": [
+        {
+            "name": "Irfan Ismail",
+            "email": "irfan@runcloud.io"
+        }
+    ]
+}

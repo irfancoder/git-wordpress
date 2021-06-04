@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c797b282ead72f58637e5c062315ef3b",
+    "packages": [
+        {
+            "name": "robbens/laravel-redirect",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robbens/laravel-redirect.git",
+                "reference": "4496a3fdf5a860f709d0f57869a658f3af9bba10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robbens/laravel-redirect/zipball/4496a3fdf5a860f709d0f57869a658f3af9bba10",
+                "reference": "4496a3fdf5a860f709d0f57869a658f3af9bba10",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "laravel/framework": "^8.25",
+                "orchestra/testbench": "6.25",
+                "phpunit/phpunit": "^9.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Robbens\\LaravelRedirect\\LaravelRedirectServiceProvider"
+                    ],
+                    "aliases": {
+                        "LaravelRedirect": "Robbens\\LaravelRedirect\\LaravelRedirectFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Robbens\\LaravelRedirect\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Nilsson",
+                    "email": "yo@robin.se",
+                    "role": "Developer"
+                }
+            ],
+            "homepage": "https://github.com/robbens/laravel-redirect",
+            "keywords": [
+                "laravel-redirect",
+                "robbens"
+            ],
+            "time": "2021-03-04T20:37:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
